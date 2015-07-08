@@ -1,0 +1,8 @@
+#post-body #normal-sortables {
+  min-height: 0;
+}
+
+input.autofill,
+textarea.autofill {
+  background-color: #faffbd !important;
+}

@@ -1,0 +1,8 @@
+#slider {
+  width: 95%;
+}
+
+input.autofill,
+textarea.autofill {
+  background-color: #faffbd !important;
+}

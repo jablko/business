@@ -1,0 +1,98 @@
+/* Template: mist */
+
+.entry-content img {
+  max-width: none;
+}
+
+address {
+  white-space: nowrap;
+}
+
+div.staticmap {
+  overflow: hidden;
+  text-align: center;
+}
+
+div.staticmap img {
+  margin-left: -100%;
+  left: 50%;
+  position: relative;
+  max-width: none;
+}
+
+#map-canvas {
+  height: 400px;
+}
+
+div.farm-practices {
+  margin-bottom: 1.5em;
+}
+
+table.archive,
+table.exhibit-tileView-body,
+table.info-window {
+  border-style: hidden;
+  border-collapse: collapse;
+}
+
+table.archive td,
+table.exhibit-tileView-body td,
+table.info-window td {
+  border-right: 15px solid transparent;
+}
+
+table.archive img.archivePostThumb,
+table.exhibit-tileView-body img.archivePostThumb {
+  margin: 0 0 15px 15px;
+  float: right;
+  max-width: 150px;
+}
+
+td.thumbnail {
+  vertical-align: top;
+}
+
+td.thumbnail img.archivePostThumb {
+  margin-right: 0;
+  max-width: 100px;
+}
+
+a.tag-restaurant,
+a.tag-restaurant:visited,
+span.tag-restaurant,
+div.exhibit-facet-value[title=Restaurant] a {
+  color: #1f77b4;
+}
+
+a.tag-retailer,
+a.tag-retailer:visited,
+span.tag-retailer,
+div.exhibit-facet-value[title=Retailer] a {
+  color: #2ca02c;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: #16a6b6 !important;
+}
+
+[data-ex-expression=".farm-practices"] div.exhibit-facet-body {
+  height: 7.5em;
+}
+
+[data-ex-expression=".products"] div.exhibit-facet-body {
+  height: 15em;
+}
+
+div.exhibit-facet-value[title="(others)"] {
+  display: none;
+}
+
+/* Workaround data-ex-show-controls=false and ordered-view-frame.js:991
+ * dom.groupOptionWidget.dispose() */
+div.exhibit-collectionView-header-sortControls,
+
+div.exhibit-controlPanel {
+  display: none !important;
+}
